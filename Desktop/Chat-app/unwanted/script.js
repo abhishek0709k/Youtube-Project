@@ -1,0 +1,11 @@
+const express = require("express")
+const fs = require("fs")
+const zlib = require("zlib")
+const app = express()
+fs.createReadStream("./sample.txt").pipe(zlib.createGzip().pipe(fs.createWriteStream("./sample.zip")))
+app.get("/" , (req ,res)=>{
+    const fileReadStream = fs.createReadStream("./sample.txt" , "utf-8")
+    fileReadStream.on("data" , (chunk)=>{ res.write(chunk)})
+    fileReadStream.on("end" , res.end())
+})
+app.listen(8000 , ()=>{console.log("server is running on PORT:8000")})
