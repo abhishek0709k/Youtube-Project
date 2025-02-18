@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kalnia+Glaze:wght@100..700&family=Playball&family=Train+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-1 bg-light right-navbar bg-light p-0">
+                <i class="fa-solid nav-btn fa-house  mt-5 mb-5" id="Home-page-btn"></i>
+                <i class="fa-brands nav-btn fa-rocketchat  mb-5" id="Chat-btn"></i>
+                <i class="fa-solid  nav-btn fa-clapperboard  mb-5" id="Board-btn"></i>
+                <i class="fa-solid  nav-btn fa-clipboard mb-5" id="Application-btn"></i>
+                <i class="fa-solid  nav-btn fa-list mr-3 mb-5" id="Lists-btn"></i>
+                <i class="fa-solid  nav-btn fa-question  mb-5" id="Questions-btn"></i>
+            </div>
+            <div class="col-11 p-0">
+                <div class="navbar bg-primary">
+                    <button class="homepage-btn">Home page</button>
+                    <button type="button" class="btn btn-outline-light chatting-btn">Chatting.com</button>
+                </div>
+        <h1 style="color: #0d6efd; text-align: center;" >Signup</h1>
+    <form action="/user/signup" method="POST" style="margin-left: 100px;">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">firstName</label>
+          <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="firstName">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+        </div>
+        <button type="submit" class="btn btn-primary signup-btn">Signup</button>
+        <button type="button" class="btn btn-primary login-btn" id="signup-login-btn">Login</button>
+    </form>
+</div>
+
+<script>
+    const house_btn = document.getElementById('Home-page-btn')
+    const login_signup_btn = document.getElementById('signup-login-btn')
+    const application_btn = document.getElementById('Application-btn')
+    const Chat_btn = document.getElementById('Chat-btn')
+    const lists_btn = document.getElementById('Lists-btn')
+    login_signup_btn.addEventListener('click' , ()=>{
+            window.location.href = '/login'
+     })
+     house_btn.addEventListener('click' , ()=>{
+            window.location.href = '/'
+     })
+     Chat_btn.addEventListener('click' , ()=>{
+            window.location.href = '/chat'
+    })
+    application_btn.addEventListener('click' , ()=>{
+            window.location.href = '/application-info'
+    })
+    lists_btn.addEventListener('click' , ()=>{
+            window.location.href = '/AboutMe'
+    })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/script.js"></script>
+</body>
+</html>
