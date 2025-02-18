@@ -1,0 +1,80 @@
+.upload{
+    position: fixed;
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload-format{
+    height: 445px;
+    width: 692px;
+    box-shadow: 0px 0px 30px rgba(250, 248, 248, 0.753);
+    border-radius: 20px;
+}
+.top-upload-format{
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: 250px;
+    display: flex;
+}
+.upload-youtube-logo{
+    color: red;
+    font-size: 30px;
+}
+.upload-video-tag{
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.upload-middle-format{
+    padding-top: 10px;
+}
+.upload-video-input{
+    padding-bottom: 30px;
+}
+.upload-input{
+    height: 30px;
+    border-radius: 9px;
+    margin-left: 108px;
+    width: 466px;
+    padding-left: 10px;
+}
+.upload-input::placeholder{
+    color: black;
+}
+.upload-video-component{
+    margin-left: 200px;
+    padding-bottom: 10px;
+}
+.upload-down-format{
+    margin-left: 243px;
+    display: flex;
+    padding-top: 20px;
+}
+.upload-main-button{
+    padding-right: 20px;
+}
+.video-btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(153, 147, 147, 0.452);
+    border: none;
+    color: white;
+    font-weight: 550;
+    transition: all 0.3s ease; 
+    &:hover{
+        transform: scale(1);
+        background-color: white;
+        color: black;
+    }
+}
+.loader {
+    width: 260px;
+    position: relative;
+    left: 410px;
+}

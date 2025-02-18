@@ -1,0 +1,201 @@
+.video{
+    position: fixed;
+    margin-top: 60px;
+    height: 93vh;
+    width: 1770px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    overflow-y: auto;
+}
+.youtube-post-section{
+    padding-top: 20px;
+}
+.channel-profile-image{
+    font-size: 25px;
+    padding-right: 20px;
+    display: inline;
+    color: white;
+}
+.title-channel-name{
+    margin: 0;
+    font-weight: 550;
+    padding-right: 10px;
+    display: inline;
+}
+.video-title{
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.channel-subscribers{
+    margin: 0;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.719);
+}
+.about-channel-div{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subscribe-div{
+    padding-left: 50px;
+}
+.subscribe-button{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 550;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.795);
+    }
+    
+}
+.comments{
+    padding-top: 30px;
+}
+.comment-div{
+    font-size: 20px;
+    font-weight: 550;
+}
+.comment-input{
+    display: flex;
+    padding-top: 7px;
+}
+.comment-user-profile{
+    font-size: 20px;
+    padding-right: 15px;
+    padding-top: 7px;
+}
+.comment-space-input{
+    background-color: black;
+    height: 30px;
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-bottom: 2px solid white;
+    color: white;
+    padding-left: 10px;
+}
+.comment-space-input::placeholder{
+    font-weight: 550;
+}
+.comment-button{
+    padding-left: 20px;
+}
+.show-comments{
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+}
+.commentor-name{
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+.user-comment{
+    font-size: 13px;
+}
+.comment-profile-image{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.like-unlike-div{
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    background-color: rgba(58, 57, 57, 0.733);
+    border-radius: 13px;
+    height: 20px;
+    position: relative;
+    left: 530px;
+}
+.like-number{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.like-button{
+    padding-right: 2px;
+    border-right: 2px solid white;
+}
+.unlike-button{
+    padding-left: 10px;
+}
+.discription{
+    padding-top: 20px;
+    padding: 10px;
+    background-color: rgba(58, 57, 57, 0.733);
+    border-radius: 10px;
+}
+.video-discription-content{
+    display: flex;
+}
+.discription-views{
+    display: inline;
+    padding-right: 15px;
+}
+.discription-time-videos{
+    display: inline;
+}
+.main-discription{
+    padding-top: 10px;
+}
+.youtube-suggestions-section{
+    color:  white;
+    padding-top: 20px;
+    position: relative;
+    right: 100px;
+}
+.suggestion-thumbnail-picture{
+    width: 220px;
+    height: 130px;
+}
+.suggestion-videos{
+    display: flex;
+    padding-bottom: 20px;
+}
+.suggestion-title{
+    padding-left: 10px;
+    width: 170px;
+}
+.suggestion-video-title{
+    font-size: 15px;
+}
+.suggestion-channel-name{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.719);
+}
+.suggestion-video-ingo{
+    display: flex;
+}
+.suggestion-videos-views{
+    display: inline;
+}
+.suggestion-videos-time{
+    display: inline;
+}
+.suggestion-videos-views{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.719);
+    padding-right: 10px;
+}
+.suggestion-videos-time{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.719);
+}
+.video-channel-logo{
+    height: 32px;
+    width: 35px;
+    border-radius: 50%;
+}
+.comment-channel-logo{
+    height: 32px;
+    width: 35px;
+    border-radius: 50%;
+}
+.videos-youtube-video{
+    width: 1150px;
+}

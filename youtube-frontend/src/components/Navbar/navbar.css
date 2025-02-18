@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&family=Playball&family=Train+One&display=swap');
+
+.Navbar{
+    height: 60px;
+    position: fixed;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    z-index: 10;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.navbar-left{
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.youtube-logo-section{
+    margin-left: 30px;
+    font-size: 27px;
+    color: red;
+    display: flex;
+    text-decoration: none;
+}
+.youtube-title{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+.input-div{
+    display: flex;
+}
+.input-navbar{
+    width: 400px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid rgb(58,57,57);
+    background-color: #121212;
+    color: white;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.search-icon{
+    margin-left: 1px;
+    border: 2px solid rgb(58,57,57);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    cursor: pointer;
+}
+.navbar-center{
+    display: flex;
+}
+.microphone-logo{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(58, 57, 57);
+    margin-left: 10px;
+    width: 17px;
+    cursor: pointer;
+}
+.navbar-right{
+    display: flex;
+}
+.create-text-div{
+    background-color: rgb(58, 57, 57);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 16px;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+    &:hover{
+        transform: scale(1.0);
+        background-color: white;
+        color: black;
+    }
+}
+.create-text-div p{
+    margin-top: 6px;
+}
+.bell-logo{
+    padding: 10px;
+    margin-left: 10px;
+}
+.user-logo{
+    padding: 10px;
+    margin-left: 10px;
+}
+.user-info-div{
+    position: absolute;
+    top:64px;
+    right: 40px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    color: black;
+}
+.user-model{
+    padding-left: 10px;
+    padding-right: 51px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    &:hover{
+        background-color: #121212cb;
+        color: white;
+    }
+}
+.user-logo-model{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    &:hover{
+        background-color: #121212cb;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: white;
+    }
+}
+.navbar-channel-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

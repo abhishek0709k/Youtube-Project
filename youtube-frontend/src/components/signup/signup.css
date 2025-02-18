@@ -1,0 +1,93 @@
+.signup{
+    position: fixed;
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singupformat{
+    height: 465px;
+    width: 692px;
+    box-shadow: 0px 0px 30px rgba(250, 248, 248, 0.753);
+    border-radius: 20px;
+}
+.signup-top-format{
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: 250px;
+    display: flex;
+}
+.signup-youtube-logo{
+    color: red;
+    font-size: 30px;
+}
+.signup-tag{
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.signup-middle-format{
+    padding-top: 10px;
+}
+.signup-main-input{
+    padding-bottom: 30px;
+}
+.signup-input{
+    height: 30px;
+    border-radius: 9px;
+    margin-left: 108px;
+    width: 466px;
+    padding-left: 10px;
+}
+.signup-input::placeholder{
+    color: black;
+}
+.signup-logo-input{
+    margin-left: 108px;
+    padding-bottom: 10px;
+}
+.singup-down-format{
+    margin-left: 243px;
+    display: flex;
+    padding-top: 20px;
+}
+.signup-main-button{
+    padding-right: 20px;
+}
+.signup-btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(153, 147, 147, 0.452);
+    border: none;
+    color: white;
+    font-weight: 550;
+    transition: all 0.3s ease; 
+    &:hover{
+        transform: scale(1);
+        background-color: white;
+        color: black;
+    }
+}
+.main-profile-image{
+    width: 71px;
+    height: 67px;
+    margin-left: 480px;
+    position: fixed;
+    top: 554px;
+    border-radius: 50%;
+}
+.css-f6mhdk {
+    width: 100%;
+    margin-top: 16px;
+    position: relative;
+    right: 216px;
+}
+.loader{
+    width: 260px;
+    margin-top: 31px;
+}

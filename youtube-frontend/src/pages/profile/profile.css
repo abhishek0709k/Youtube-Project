@@ -1,0 +1,123 @@
+.profile{
+    position: fixed;
+    top:60px;
+    color: white;
+    overflow-y: auto;
+}
+.channel-profile {
+    position: fixed;
+    left: 230px;
+    height: 93vh;
+    width: 100% ;
+    background-color: black;
+    overflow-y: auto;
+}
+.full-channel-profile{
+    position: fixed;
+    left: 0px;
+    height: 93vh;
+    width: 100% ;
+    background-color: black;
+}
+.about-channel{
+    position: fixed;
+    left: 400px;
+    top: 140px;
+    color: white;
+    display: flex;
+}
+.channel-logo{
+    font-size: 130px;
+    padding-right: 30px;
+}
+.channel-info{
+    padding-top:20px;
+}
+.info-channel-name{
+    font-size: 30px;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+.subscribers-likes-info{
+    display: flex;
+}
+.subscribers-info{
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 14px;
+    padding-right: 10px;
+}
+.likes-info{
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 14px;
+}
+.channel-info-discription{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.719);
+    padding-bottom: 10px;
+}
+.info-channel-handle{
+    font-size: 16px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.info-subscribe-button{
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: 550;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.795);
+    }
+    
+}
+.channelprofile-videos-section{
+    position: fixed;
+    left: 350px;
+    top: 370px;
+}
+.videos-top-section{
+    display: flex;
+}
+.profile-videos-tab{
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    padding-bottom: 30px;
+}
+.profile-video-thumbnail{
+    padding-right: 20px;
+}
+.profile-youtube-thumbnail-picture{
+    height: 170px;
+    width: 270px;
+    border-radius: 7px;
+}
+.profile-mainvideo-title{
+    font-size: 14px;
+}
+.profilevideo-views-time-info{
+    display: flex;
+}
+.profile-views-info{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.719);
+    padding-right: 10px;
+}
+.profile-time-info{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.719);
+}
+.profile-video{
+    width: 290px;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+.channelprofile-videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.profile-channel-logo{
+    height: 110px;
+    width: 116px;
+    border-radius: 50%;
+}

@@ -1,0 +1,114 @@
+.Home-page{
+    position: fixed;
+    left: 230px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+.full-home-page{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+.Home-page-heading{
+    height: 40px;
+}
+.headings{
+    display: inline;
+    background-color: rgba(122, 118, 118, 0.507);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 15px;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+    font-weight: 550;
+    transition: all 0.3s ease; 
+    &:hover{
+        transform: scale(1.1);
+        background-color: white;
+        color: black;
+    }
+}
+.main-homepage{
+    display: grid;
+    height: 93vh;
+    background-color: black;
+    grid-template-columns: 364px 364px 364px 364px;
+    grid-template-rows: 274px;
+    padding-top: 34px;
+    overflow-y: auto; 
+}
+.full-main-homepage{
+    display: grid;
+    height: 93vh;
+    background-color: black;
+    grid-template-columns: 409px 409px 409px 409px;
+    grid-template-rows: 274px;
+    padding-top: 34px;
+    padding-left: 80px;
+}
+.youtube-videos{
+    height: 268px;
+    width: 364px;
+    display: inline;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.youtube-thumbnail{
+    padding-left: 13px;
+}
+.youtube-thumbnail-picture{
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+}
+.thumbnail-profile{
+    padding-left: 20px;
+    display: flex;
+    text-decoration: none;
+}
+.thumbnail-profile-picture{
+    font-size: 20px;
+    width: 30px;
+    color: white;
+    padding-right: 10px;
+}
+.title-channel-name{
+    margin: 0;
+    font-weight: 550;
+    padding-right: 10px;
+    display: inline;
+}
+.thumbnail-title{
+    margin: 0;
+    font-size: 14px;
+    display: inline;
+    color: rgba(255, 255, 255, 0.719);
+}
+.thumbnail-likes{
+    margin: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.719);
+}
+.videos-timing{
+    background-color: rgba(65, 63, 63, 0.767);
+    display: inline;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 4px;
+    position: relative;
+    left: 282px;
+    bottom: 71px;
+}
+.homepage-thumbnail-channel-logo{
+    height: 32px;
+    width: 35px;
+    border-radius: 50%;
+}
